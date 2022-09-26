@@ -1,0 +1,86 @@
+body{
+    background-image:linear-gradient(45deg,rgba(64, 200, 64, 0.71), rgba(133, 233, 27, 0.51),rgba(183, 248, 4, 0.41));
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5 rem;
+    background-size: 300%;
+    animation: bggradient 5s infinite alternate;
+   
+}
+@keyframes bggradient {
+    0%{
+        background-position: left;
+    }
+    50%{
+        background-position: center;
+    }
+    100%{
+        background-position: right;
+    }
+}
+.nav-link.active
+{
+    background-color:rgba(149, 144, 138, 0.6);
+    
+} 
+.nav-link{
+    
+    background-color:rgba(149, 144, 138, 0.6);
+    
+} 
+.nav-link.active:hover,
+.nav-link:active{
+    color:rgb(252, 250, 250);
+    font-weight: 6rem;
+    
+} 
+.nav-link:hover,.nav-link:active{
+    color:rgb(252, 250, 250);
+    font-weight: 4rem;
+    
+} 
+#mainnav .navbar-brand{
+    color:#fdf8f8;
+}
+
+#mainnav .navbar-brand span{
+    color:red;
+    transition:300ms;
+    
+}
+nav.navbar.scrolled{
+    background-image: url('gptw.jpg');
+    background-color: #60a9e6c7;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    transition:4s ease-in-out;
+}
+
+#certificates{
+    color:gold;
+    text-align: center;
+    text-shadow: 1px 1px 1px white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;}
+
+#skills img:hover{
+    z-index: 2;
+    animation:jump 2s linear infinite alternate;
+}
+
+@keyframes jump{
+    0%{
+        transform:translateY(0px)rotateY(0deg);}
+    50%{
+    transform:translateY(-10px)rotateY(180deg);}
+    1000%{
+        transform:translateY(0px)rotateY(360deg);}
+}
+#footer{
+    background-color: linear-gradient(-70deg,black,rgba(128, 128, 128, 0.772));
+}
+
+
+
+
+background-image:linear-gradient(45deg, rgb(108, 63, 95),rgba(142, 56, 119, 0.897),rgba(220, 43, 220, 0.884), rgba(231, 149, 226, 0.842), rgba(225, 200, 244, 0.838), rgba(161, 144, 244, 0.861) );
